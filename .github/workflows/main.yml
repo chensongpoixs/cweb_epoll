@@ -13,8 +13,8 @@ jobs:
     - name: build
       run: cd cweb_epoll_file && mkdir -p linux_build && cd linux_build && cmake .. && make -j4
 
-    - name: cweb_epoll_file
-      run: pwd && sudo ./cweb_epoll_file/cweb_epoll_file
+  #  - name: cweb_epoll_file
+  #    run: pwd && sudo ./cweb_epoll_file/cweb_epoll_file
     
   
       
